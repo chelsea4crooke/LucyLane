@@ -1,0 +1,35 @@
+.directBody{
+    background: url(../../img/Blush6.jpg);
+    background-size:cover;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.container{
+    background-color: rgb(75, 74, 74, 0.5) !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: center;
+}
+.big{
+    font-family: 'Monoton', cursive;
+    font-size: 115px;
+}
+.mainButton{
+    background-color:  #F39303;
+    border: 0pt;
+}
+.lead{
+    font-size: 40px !important;
+    color: antiquewhite;
+}
+.passwordBtn{
+    background-color: crimson !important;
+    border: cornsilk !important;
+    font-size: 20px;
+}
+.formlink:link{
+    color: crimson !important;
+    border: cornsilk !important;
+}

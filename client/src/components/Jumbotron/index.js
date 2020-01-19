@@ -1,0 +1,14 @@
+import React from "./node_modules/react";
+
+function Jumbotron({ children }) {
+  return (
+    <div
+      style={{ height: 350, clear: "both", paddingTop: 20, textAlign: "center" }}
+      className="jumbotron"
+    >
+      {children}
+    </div>
+  );
+}
+
+export default Jumbotron;
