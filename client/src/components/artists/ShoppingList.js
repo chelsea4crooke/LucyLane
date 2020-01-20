@@ -4,7 +4,7 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import { connect } from 'react-redux';
 import { getItems, deleteItem } from '../../actions/itemActions';
 import PropTypes from 'prop-types';
-import { NavTabs } from '../home/NavBar';
+
 class ShoppingList extends Component{
     componentDidMount() {
         this.props.getItems();
@@ -17,7 +17,7 @@ class ShoppingList extends Component{
         const { items } = this.props.item;
         return(
         <div>
-            <NavTabs/>
+            
             <Container>
                 
                 <ListGroup>

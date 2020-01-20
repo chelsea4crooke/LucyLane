@@ -8,7 +8,7 @@ class Shows extends React.Component {
   render() {
     return (
       <div>
-      <NavTabs />
+      
       <body className="showsBody">
 
       </body>

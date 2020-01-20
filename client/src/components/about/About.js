@@ -1,7 +1,7 @@
 import React from 'react';
 import { PropTypes } from 'prop-types';
 import { Container } from "../Grid";
-import { NavTabs } from "../home/NavBar";
+
 import "./about.css";
 import "../Jumbotron";
 import Jumbotron from '../Jumbotron';
@@ -10,7 +10,7 @@ class About extends React.Component {
   render() {
     return (
       <div className="aboutBody"> 
-      <NavTabs />
+      
       <br></br>
         <Jumbotron>
           <h1>About Lucy Lane</h1>

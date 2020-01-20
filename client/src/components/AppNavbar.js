@@ -1,3 +1,4 @@
+
 import React, { Component } from 'react';
 import{
     Collapse,
@@ -6,12 +7,11 @@ import{
     NavbarBrand,
     Nav,
     NavItem,
-    NavLink,
     Container,
     Col
 } from 'reactstrap';
-
-class navbar extends Component{
+import {NavLink} from 'react-router-dom'
+export class NavBar extends Component{
      state ={
          isOpen: false
      }
@@ -19,9 +19,10 @@ class navbar extends Component{
         this.setState({
             isOpen: !this.state.isOpen
         });
-    }  
+    }
     render() {
         return(
+          <nav>
         <div>
             <Navbar color="dark" dark expand="sm" className="mb-5">
                 <Container>
@@ -30,27 +31,27 @@ class navbar extends Component{
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="mr-auto" navbar>
                             <NavItem>
-                                <NavLink href="client\src\components\about\About.js">
+                                <NavLink to="/about">
                                     About
                                 </NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="client\src\components\shows\Shows.js">
+                                <NavLink to="/shows">
                                     Upcoming Shows
                                 </NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="client\src\components\directions\Directions.js">
+                                <NavLink to="/directions">
                                     Directions
                                 </NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="client\src\components\form\Form.js">
+                                <NavLink to="/form">
                                     Contact Us
                                 </NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="client\src\components\artists\ShoppingList.js">
+                                <NavLink to="/artists">
                                     Our Artists
                                 </NavLink>
                             </NavItem>
@@ -59,9 +60,8 @@ class navbar extends Component{
                 </Container>
             </Navbar>
         </div>
-      
+        </nav>
      );
-    } 
+    }
 }
-
-export default navbar;
+export default NavBar;
