@@ -1,4 +1,3 @@
-
 import React, { Component } from 'react';
 import{
     Collapse,
@@ -7,8 +6,7 @@ import{
     NavbarBrand,
     Nav,
     NavItem,
-    Container,
-    Col
+    // Container,
 } from 'reactstrap';
 import {NavLink} from 'react-router-dom'
 export class NavBar extends Component{
@@ -25,39 +23,39 @@ export class NavBar extends Component{
           <nav>
         <div>
             <Navbar color="dark" dark expand="sm" className="mb-5">
-                <Container>
-                    <NavbarBrand href="/">Lucy Lane</NavbarBrand>
+                {/* <Container> */}
+                    <NavbarBrand className="link1" href="/">Lucy Lane</NavbarBrand>
                     <NavbarToggler onClick={this.toggle}/>
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="mr-auto" navbar>
                             <NavItem>
-                                <NavLink to="/about">
+                                <NavLink className="link1" to="/about">
                                     About
                                 </NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink to="/shows">
+                                <NavLink className="link1" to="/shows">
                                     Upcoming Shows
                                 </NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink to="/directions">
+                                <NavLink className="link1" to="/directions">
                                     Directions
                                 </NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink to="/form">
+                                <NavLink className="link1" to="/form">
                                     Contact Us
                                 </NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink to="/artists">
+                                <NavLink className="link1"to="/artists">
                                     Our Artists
                                 </NavLink>
                             </NavItem>
                         </Nav>
                     </Collapse>
-                </Container>
+                {/* </Container> */}
             </Navbar>
         </div>
         </nav>

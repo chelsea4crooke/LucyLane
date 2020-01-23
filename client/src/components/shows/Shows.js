@@ -1,6 +1,5 @@
 import React from 'react';
 import { PropTypes } from 'prop-types';
-import { NavTabs } from "../home/NavBar";
 import "./shows.css";
 
 

@@ -5,7 +5,7 @@ function Jumbotron({ children }) {
     <div
       style={{ height: 350, clear: "both", paddingTop: 20, textAlign: "center" }}
       className="jumbotron"
-    >
+     >
       {children}
     </div>
   );
