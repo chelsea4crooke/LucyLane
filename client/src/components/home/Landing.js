@@ -5,13 +5,9 @@ import { Link } from "react-router-dom";
 import "./home.css";
 // import About from "../about/About";
 class Landing extends Component {
-  handleClick= (event) => {
-    event.preventDefault();
-    console.log('button clicked:', this);
-  }
  render() {
     return (
-      <body>
+      <body className="landBody">
       <br></br>
       <Container>
         <h1 className="display-4 big">Lucy Lane</h1>

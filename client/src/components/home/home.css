@@ -1,7 +1,6 @@
-body{
-    background: url(../../img/Zack4.jpg);
+.landBody{
+    background: url(../../img/Zack10.jpg);
     background-size:cover;
-    width: 100%;
     text-align: center;
 }
 .jumbotron{

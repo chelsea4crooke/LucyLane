@@ -1,23 +1,20 @@
 import React from 'react';
 import { PropTypes } from 'prop-types';
-import { Container } from "../Grid";
-
-import "./about.css";
 import "../Jumbotron";
 import Jumbotron from '../Jumbotron';
+
+import "./about.css";
 
 class About extends React.Component {
   render() {
     return (
-      <div className="aboutBody"> 
-      
+      <body className="aboutBody"> 
       <br></br>
         <Jumbotron>
           <h1>About Lucy Lane</h1>
             <message className="lead">This is a little bit of our history and some frequently asked questions about the venue.</message>
         </Jumbotron>
         <br></br>
-        <Container>
         <h1 className="aboutLead">Lucy Lane's humble beginnings...</h1>
           <div className="aboutText">
               <p>Andrew Westbrook moved into Lucy Lane in 2010. Back then it was not as such but he was heavily involved in the Richmond music scene and wanted to curate the space back in the woods as somewhat of a commune. A place where people could come be themselves, be safe, have meals together, and have a place to share common interest and ideas. </p>
@@ -84,8 +81,7 @@ class About extends React.Component {
                 <p className="answer">Bring your friends, be nice to people, pick up your trash.
                 </p>
           </div>
-        </Container>
-      </div>
+      </body>
     );
   }
 }

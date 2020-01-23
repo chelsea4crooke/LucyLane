@@ -1,11 +1,15 @@
 .aboutBody{
     background-image: linear-gradient(to bottom right,#900c3f, #ffc300);
-    padding-bottom: 50px;
     padding-top: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
-
 .jumbotron{
     background-color: rgb(75, 74, 74, 0.5);
+}
+h1{
+    font-size: 60px;
+    color: #F39303;
 }
 .big{
     font-family: 'Monoton', cursive;
