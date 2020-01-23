@@ -12,7 +12,7 @@ body{
     position: sticky;
     padding-top: 5px;
     left: 0;
-    bottom: -5;
+    bottom: 0;
   }
   .jumbotron{
       padding-top: 20px;
