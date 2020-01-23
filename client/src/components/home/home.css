@@ -1,6 +1,8 @@
 body{
     background: url(../../img/Zack4.jpg);
     background-size:cover;
+    width: 100%;
+    text-align: center;
 }
 .jumbotron{
     background-color: rgb(75, 74, 74, 0.5);
