@@ -17,7 +17,7 @@ class ShoppingList extends Component{
         
         const { items } = this.props.item;
         return(
-            <div className="container">                
+          <main className="artistsBody"> 
                 <ListGroup>
                     <TransitionGroup className="shopping-list">
                         {items.map(({ _id, name, genre, city, state }) => (
@@ -30,7 +30,7 @@ class ShoppingList extends Component{
                         ))}
                     </TransitionGroup>
                 </ListGroup>
-            </div>
+            </main>
         );
     }
 }

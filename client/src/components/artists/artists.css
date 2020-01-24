@@ -1,4 +1,12 @@
 .artistsBody{
+    background: url("../../img/PiranhaLucy2-26.jpg");
+    background-size: contain;
     padding-bottom: 50px;
     padding-top: 10px;
+}
+
+.shopping-list{
+    opacity: 0.6;
+    text-align: center;
+    margin: 70px 75px 70px 75px;
 }
