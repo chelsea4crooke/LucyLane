@@ -8,7 +8,7 @@ import "./about.css";
 class About extends React.Component {
   render() {
     return (
-      <body className="aboutBody"> 
+      <main className="aboutBody"> 
       <br></br>
         <Jumbotron>
           <h1>About Lucy Lane</h1>
@@ -83,7 +83,7 @@ class About extends React.Component {
                 <p className="answer">Bring your friends, be nice to people, pick up your trash.
                 </p>
           </div>
-      </body>
+      </main>
     );
   }
 }

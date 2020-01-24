@@ -7,7 +7,7 @@ import "./home.css";
 class Landing extends Component {
  render() {
     return (
-      <body className="landBody">
+      <main className="landBody">
       <br></br>
       <Container>
         <h1 className="display-4 big">Lucy Lane</h1>
@@ -17,7 +17,7 @@ class Landing extends Component {
             to="/about">Learn more</Link>
               <br></br>
         </Container>
-      </body>
+      </main>
     );
   }
 }
