@@ -8,12 +8,11 @@ import { UncontrolledCollapse, Button, CardBody, Card } from 'reactstrap';
 class Shows extends React.Component {
   render() {
     return (
-      <div>
+      <body className="showsBody">
        <Jumbotron>
          <h3>Upcoming Shows at Lucy Lane.....Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
         </Jumbotron> 
-      
-      <body className="showsBody">
+      <div>
       <Container>
         {/* BEGIN SHOW ENTRy */}
         <Row>
@@ -161,8 +160,9 @@ class Shows extends React.Component {
         </Row>
        {/* END SHOW ENTRY */}
       </Container>
-      </body>
       </div>
+      </body>
+  
 
     );
   }

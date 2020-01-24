@@ -12,10 +12,11 @@ class About extends React.Component {
       <br></br>
         <Jumbotron>
           <h1>About Lucy Lane</h1>
-            <message className="lead">This is a little bit of our history and some frequently asked questions about the venue.</message>
+            <message className="jMess">This is a little bit of our history and some frequently asked questions about the venue.</message>
         </Jumbotron>
         <br></br>
         <h1 className="aboutLead">Lucy Lane's humble beginnings...</h1>
+        <br></br>
           <div className="aboutText">
               <p>Andrew Westbrook moved into Lucy Lane in 2010. Back then it was not as such but he was heavily involved in the Richmond music scene and wanted to curate the space back in the woods as somewhat of a commune. A place where people could come be themselves, be safe, have meals together, and have a place to share common interest and ideas. </p>
               <p>This unfortunately never took off as a formal concept but the thought and the idea were there. Fast forward a couple of years. Andrew was out one night and met one of his former co workers who he knew at one time was making music. Being in the market for a new band himself asked if he was still writing. Soon after a new band formed called Lucy in Battle Armor and they began to practice in the house.</p>
@@ -24,6 +25,7 @@ class About extends React.Component {
               <p>With no actual intent on starting or running a house venue we saw the joy and pleasure we could bring and throughout the years and word of mouth Lucy Lane has grown and become the place we all hold so dearly in our hearts today. Currently Andrew Westbrook, Andrew Smith, and Miranda Jaroneski live at Lucy Lane. We’d love for you to stop by and see us sometime.</p>
           </div>
           <h1 className="aboutLead">What to expect at a Lucy Lane show</h1>
+          <br></br>
           <div className="aboutText">
             <p>Lucy Lane is an artistic outlet for anyone wanting to expand and share their respective craft, with a direct focus on music. All artists are welcome to come indulge, and make our habitat a place of warm fuzzy feelings and beautiful expression. </p>
           </div>
@@ -38,7 +40,7 @@ class About extends React.Component {
           <br></br>
           <h3 className="harassment">**HARASSMENT OF ANY KIND WILL NOT BE TOLERATED!**</h3>
           <br></br>
-          <h2 className="aboutLead">FAQ's:</h2>
+          <h2 className="facts">FAQ's:</h2>
           <br></br>
           <div className="list-group">
             <li className="list-group-item rules">So what is a DIY venue exactly?</li>
