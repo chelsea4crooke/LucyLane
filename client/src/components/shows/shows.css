@@ -2,3 +2,26 @@
     padding-bottom: 50px;
     padding-top: 10px;
 }
+.date{
+    width: 200px !important;
+    text-align: center;
+    margin-top: 30px;
+    color: #EAE9E9 ;
+    border: 2px solid #581845 ;
+    padding: 10px;
+}
+.details{
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    border-radius: 15px 50px; 
+    border: 2px solid #393637 ;
+    padding: 5px;
+    padding-top: 10px;
+}
+.detailsCard{
+    background-color: rgb(143, 140, 141, 0.1);
+}
+a {
+    color: hotpink;
+  }

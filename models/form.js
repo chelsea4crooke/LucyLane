@@ -4,11 +4,19 @@ const Schema = mongoose.Schema;
 const ContactSchema = new Schema ({
     name: {
         type: String,
-        required: true
+         required: false
     },
-    date: {
-        type: Date,
-        default: Date.now
+    email: {
+        type: String,
+        required: false
+    },
+    topic: {
+        type: String,
+         required: false
+    },
+    text: {
+        type: String,
+        required: false
     }
 });
 

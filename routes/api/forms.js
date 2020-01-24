@@ -16,7 +16,11 @@ const Contact = require('../../models/form');
 
 router.post('/', (req, res) =>{
     const newContact = new Contact({
-        name: req.body.name
+        name: req.body.name,
+        email: req.body.email,
+        topic: req.body.topic,
+        text: req.body.text
+        
     });
     newContact.save().then( contact => res.json(contact));
     console.log("contact route")
