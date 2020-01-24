@@ -1,9 +1,8 @@
 .showsBody{
     background: url(../../img/Crust2.jpg);
     background-repeat: repeat-y;
+    background-size: contain;
     text-align: center;
-    padding-bottom: 50px;
-    padding-top: 10px;
 }
 .date{
     width: 200px !important;
