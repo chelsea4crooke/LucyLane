@@ -1,6 +1,7 @@
-body{
-    background: url(../../img/Zack4.jpg);
+.landBody{
+    background: url(../../img/Zack10.jpg);
     background-size:cover;
+    text-align: center;
 }
 .jumbotron{
     background-color: rgb(75, 74, 74, 0.5);
@@ -9,7 +10,7 @@ body{
     font-family: 'Monoton', cursive;
     font-size: 115px;
 }
-.mainButton{
+.mainBtn{
     background-color:  #F39303;
     border: 0pt;
 }

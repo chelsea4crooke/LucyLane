@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
-import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 import ShoppingList from "./components/artists/ShoppingList"
 // import ItemModal from './components/ItemModal';
@@ -14,13 +15,7 @@ import Directions from "../src/components/directions/Directions";
 import Shows from "../src/components/shows/Shows";
 import Form from "../src/components/form/Form"
 import "./app.css";
-
-
-
-
-
-
-
+import Footer from './components/footer';
 
 class App extends Component {
     render() {
@@ -39,6 +34,7 @@ class App extends Component {
                                 <Route exact path="/artists" component={ShoppingList}/>
                             </Switch>
                         </div>
+                    <Footer />
                 </div>
                 </Router>
             </Provider>
