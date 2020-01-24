@@ -19,6 +19,7 @@
     "concurrently": "^3.6.1",
     "config": "^3.0.1",
     "express": "^4.17.1",
+    "mdbreact": "^4.25.0",
     "mongoose": "^5.8.7",
     "react-bootstrap": "^1.0.0-beta.16",
     "react-router-dom": "^5.1.2"
