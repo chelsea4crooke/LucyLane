@@ -66,8 +66,6 @@ class Contact extends Component {
                           </FormGroup>
                             
                             <Button
-                            
-
                             color="dark"
                             style={{marginBottom:'2rem'}}
                             block>
