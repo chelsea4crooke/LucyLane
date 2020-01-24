@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import { Container, ListGroup, ListGroupItem, Row, Col } from 'reactstrap';
+import { ListGroup, Row, Col  } from 'reactstrap';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import { connect } from 'react-redux';
 import { getItems, deleteItem } from '../../actions/itemActions';
 import PropTypes from 'prop-types';
+import "./artists.css";
 
 class ShoppingList extends Component{
     componentDidMount() {
@@ -16,10 +17,7 @@ class ShoppingList extends Component{
         
         const { items } = this.props.item;
         return(
-        <div>
-            
-            <Container>
-                
+          <main className="artistsBody"> 
                 <ListGroup>
                     <TransitionGroup className="shopping-list">
                         {items.map(({ _id, name, genre, city, state, link, img }) => (
@@ -35,8 +33,7 @@ class ShoppingList extends Component{
                         ))}
                     </TransitionGroup>
                 </ListGroup>
-            </Container>
-            </div>
+            </main>
         );
     }
 }
