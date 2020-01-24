@@ -15,6 +15,7 @@ class About extends React.Component {
             <message className="jMess">This is a little bit of our history and some frequently asked questions about the venue.</message>
         </Jumbotron>
         <br></br>
+      <div className="container">
         <h1 className="aboutLead">Lucy Lane's humble beginnings...</h1>
         <br></br>
           <div className="aboutText">
@@ -83,6 +84,7 @@ class About extends React.Component {
                 <p className="answer">Bring your friends, be nice to people, pick up your trash.
                 </p>
           </div>
+        </div>
       </main>
     );
   }

@@ -3,6 +3,9 @@
     background-repeat: repeat-y;
     background-size: contain;
     text-align: center;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 .date{
     width: 200px !important;
@@ -27,3 +30,24 @@
 a {
     color: hotpink;
   }
+h2{
+    font-size: 40px !important;
+    color: #F39303;
+    font-family: 'Monoton', cursive;
+    padding-top: 20px;
+    margin-bottom: 25px;
+
+}
+h3{
+    font-family: 'Calistoga', cursive;
+    font-size: 20px;
+    color: #581845;
+}
+.bands, p, a{    
+    font-family: 'Calistoga', cursive;
+
+}
+.time{
+    font-family: 'Monoton', cursive;
+    color: #EAE9E9 ;
+}

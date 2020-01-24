@@ -1,5 +1,6 @@
 .aboutBody{
     background-image: linear-gradient(to bottom right,#900c3f, #ffc300);
+    width: 100% !important;
     padding-top: 10px;
     padding-right: 30px;
     padding-left: 30px;
