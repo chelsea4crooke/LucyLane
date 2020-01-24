@@ -1,5 +1,5 @@
 .list-group-item {
-    line-height: 2.5;
+    line-height: 1.5;
   }
 body{
     background-color: #333a40;
@@ -44,8 +44,9 @@ body{
     font-size: 20px;
     color: #F39303;
   }
-  .socialBtn{
-    color: #F39303;
+  .link2{
+    font-family: 'Monoton', cursive;
+    font-size: 30px;
   }
   .fa-facebook-square:before {
     content: "\f082";

@@ -24,7 +24,7 @@ export class NavBar extends Component{
         <div>
             <Navbar color="dark" dark expand="sm" className="mb-5">
                 {/* <Container> */}
-                    <NavbarBrand className="link1" href="/">Lucy Lane</NavbarBrand>
+                    <NavbarBrand className="link2" href="/">Lucy Lane</NavbarBrand>
                     <NavbarToggler onClick={this.toggle}/>
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="mr-auto" navbar>

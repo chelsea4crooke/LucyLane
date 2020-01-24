@@ -15,7 +15,7 @@ import Directions from "../src/components/directions/Directions";
 import Shows from "../src/components/shows/Shows";
 import Form from "../src/components/form/Form"
 import "./app.css";
-import Footer from './components/footer';
+import Footer from './components/Footer/footer';
 
 class App extends Component {
     render() {
