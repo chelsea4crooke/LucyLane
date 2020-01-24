@@ -33,6 +33,7 @@ class ShoppingList extends Component{
                         ))}
                     </TransitionGroup>
                 </ListGroup>
+                <br></br>
             </main>
         );
     }

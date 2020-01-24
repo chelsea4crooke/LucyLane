@@ -1,7 +1,5 @@
 import React from "react";
-// import ReactDOM from 'react-dom';
 import { SocialIcon } from 'react-social-icons';
-// import { Row, Col } from "reactstrap";
 import "./footer.css";
 
 

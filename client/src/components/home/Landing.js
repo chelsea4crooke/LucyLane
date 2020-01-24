@@ -16,6 +16,7 @@ class Landing extends Component {
             to="/about">Learn more</Link>
               <br></br>
         </div>
+        <br></br>
       </main>
     );
   }
