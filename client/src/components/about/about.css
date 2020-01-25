@@ -1,5 +1,6 @@
 .aboutBody{
     background-image: linear-gradient(to bottom right,#900c3f, #ffc300);
+    width: 100% !important;
     padding-top: 10px;
     padding-right: 30px;
     padding-left: 30px;
@@ -8,7 +9,8 @@
     background-color: rgb(75, 74, 74, 0.5);
 }
 h1{
-    font-size: 60px;
+    font-size: 60px !important;
+    padding-top: 20px;
     color: #F39303;
 }
 .big{
@@ -22,14 +24,31 @@ h1{
 .lead{
     font-size: 40px;
     color: antiquewhite;
+    margin: 10px 15px 10px 15px;
+
+}
+.jMess{
+    font-size: 30px;
+    color: antiquewhite;
+    margin: 10px 15px 10px 15px;
+
 }
 .aboutLead{
     color: antiquewhite;
-    font-size: 45px;
+    font-size: 40px !important;
+    margin: 10px 15px 10px 15px;
+}
+.facts{
+    font-family: 'Monoton', cursive;
+    color: antiquewhite;
+    font-size: 40px !important;
+    margin: 10px 15px 10px 15px;
 }
 .aboutText{
     color: bisque;
     font-size: 20px;
+    margin: 10px 15px 10px 15px;
+
 }
 .question{
     background-color: rgb(75, 74, 74, 0.5);
@@ -40,6 +59,7 @@ h1{
 .answer{
     color: antiquewhite !important;
     font-size: 20px;
+
 }
 .rules{
     background-color: rgb(75, 74, 74, 0.5) !important;

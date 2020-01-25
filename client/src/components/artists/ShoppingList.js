@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import { Container, ListGroup, ListGroupItem } from 'reactstrap';
+import { ListGroup, Row, Col  } from 'reactstrap';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import { connect } from 'react-redux';
 import { getItems, deleteItem } from '../../actions/itemActions';
 import PropTypes from 'prop-types';
+import "./artists.css";
 
 class ShoppingList extends Component{
     componentDidMount() {
@@ -16,24 +17,24 @@ class ShoppingList extends Component{
         
         const { items } = this.props.item;
         return(
-        <div>
-            
-            <Container>
-                
+          <main className="artistsBody"> 
                 <ListGroup>
                     <TransitionGroup className="shopping-list">
-                        {items.map(({ _id, name, genre, city, state }) => (
+                        {items.map(({ _id, name, genre, city, state, link, img }) => (
                           <CSSTransition key={_id} timeout={500} classNames="fade">
-                              <ListGroupItem>
-                             
-                                <h2 className="artistName">{name}</h2><h3 className="artistGenre">{genre}</h3><p className="artistHome">{city}, {state}</p>
-                              </ListGroupItem>
+                              <Row>
+                              {/* <ListGroupItem> */}
+                                <Col><img src={img} width="200px" height="200px"/></Col>
+                                <Col><h2 className="artistName"><a href={link}>{name}</a></h2><h3 className="artistGenre">{genre}</h3><p className="artistHome">{city}, {state}</p></Col>
+                                
+                              {/* </ListGroupItem> */}
+                              </Row>
                           </CSSTransition>  
                         ))}
                     </TransitionGroup>
                 </ListGroup>
-            </Container>
-            </div>
+                <br></br>
+            </main>
         );
     }
 }
