@@ -12,6 +12,7 @@ import {
 } from 'reactstrap';
 import {connect} from 'react-redux';
 import { addArtist } from '../../actions/artistActions';
+import "../form/contact.css";
 
 
 
