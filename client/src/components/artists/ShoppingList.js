@@ -24,7 +24,7 @@ class ShoppingList extends Component{
                           <CSSTransition key={_id} timeout={500} classNames="fade">
                               <Row>
                               {/* <ListGroupItem> */}
-                                <Col><img src={img} width="200px" height="200px"/></Col>
+                                <Col><img src={img} alt="super awesome band logo" width="200px" height="200px"/></Col>
                                 <Col><h2 className="artistName"><a href={link}>{name}</a></h2><h3 className="artistGenre">{genre}</h3><p className="artistHome">{city}, {state}</p></Col>
                                 
                               {/* </ListGroupItem> */}

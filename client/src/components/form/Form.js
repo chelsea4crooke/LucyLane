@@ -10,7 +10,7 @@ import {
 import {connect} from 'react-redux';
 import { addContact } from '../../actions/contactActions';
 import "./contact.css";
-
+import { Artist } from '../artistform/Artistform'
 
 
 class Contact extends Component {
@@ -74,6 +74,7 @@ class Contact extends Component {
                         </Label>
                     </FormGroup>
                 </Form>
+                <Artist/>
                 </div>
               <br/>         
             </main>

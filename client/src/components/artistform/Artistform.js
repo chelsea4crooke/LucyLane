@@ -16,7 +16,7 @@ import "../form/contact.css";
 
 
 
-class Artist extends Component {
+export class Artist extends Component {
     state={
         name:'',
         email:'',
