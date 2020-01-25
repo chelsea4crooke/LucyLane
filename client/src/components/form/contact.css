@@ -1,6 +1,7 @@
 body{
-    background: url(../img/Colin12.jpg);
+    background: url(../../img/Zack4.jpg);
     background-size:cover;
+  
 }
 .jumbotron{
     background-color: rgb(75, 74, 74, 0.5);
@@ -16,4 +17,12 @@ body{
 .lead{
     font-size: 40px;
     color: antiquewhite;
+}
+.contact{
+    color: #F39303;
+}
+.name, .email, .topic, .exText{
+    color: #F39303;
+    font-family: 'Monoton', cursive;
+    font-size: 24px;
 }

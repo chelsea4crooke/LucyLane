@@ -1,6 +1,3 @@
-
-
-// import "./style.css";
 import React, { Component } from "react";
 import {
     Button, 
@@ -12,6 +9,7 @@ import {
 } from 'reactstrap';
 import {connect} from 'react-redux';
 import { addContact } from '../../actions/contactActions';
+import "./contact.css";
 
 
 
@@ -46,23 +44,25 @@ class Contact extends Component {
 
     render() {
         return(
-            <div>
+        <main className="formBody">
+        <br/>
+            <div className="container">
                 <Form onSubmit={this.onSubmit}>
                     <FormGroup>
-                            <Label for="name"> Name
-                            <Input type="text" name="name" id="contact" placeholder="Add contact" onChange={this.onChange}/>
+                            <Label for="name" className="name"> Name
+                            <Input type="text" name="name" className="contact" placeholder="Add contact" onChange={this.onChange}/>
 
-                            <Label for="email">Email</Label>
-                            <Input type="text" name="email" id="email" placeholder="yourname@you.com" onChange={this.onChange}/>
+                            <Label for="email" className="email">Email</Label>
+                            <Input type="text" name="email" className="email" placeholder="yourname@you.com" onChange={this.onChange}/>
 
                             
 
-                            <Label for="topic">What are you contacting us about?</Label>
-                            <Input type="text" name="topic" id="email" placeholder="Directions to shows, Press, etc." onChange={this.onChange}/>
+                            <Label for="topic" className="topic">What are you contacting us about?</Label>
+                            <Input type="text" name="topic" className="email" placeholder="Directions to shows, Press, etc." onChange={this.onChange}/>
 
                           <FormGroup>
-                            <Label for="exampleText">Please Leave a detailed message below and we will do our best to respond within 2 days.</Label>
-                            <Input type="textarea" name="text" id="exampleText" onChange={this.onChange}/>
+                            <Label for="exampleText" className="exText">Please Leave a detailed message below and we will do our best to respond within 2 days.</Label>
+                            <Input type="textarea" name="text" className="exampleText" onChange={this.onChange}/>
                           </FormGroup>
                             
                             <Button
@@ -74,8 +74,9 @@ class Contact extends Component {
                         </Label>
                     </FormGroup>
                 </Form>
-                    
-            </div>
+                </div>
+              <br/>         
+            </main>
         );
     }
 }
