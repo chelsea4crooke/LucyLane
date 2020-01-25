@@ -20,6 +20,12 @@ h1{
     font-size: 20px !important;
     color: antiquewhite;
 }
+<<<<<<< HEAD
+.footer{
+    padding-bottom: 20px;
+}
+=======
 .container{
     padding-bottom: 30px !important;
 }
+>>>>>>> ba36f1e91260f02d5e48284c4a0776a89393f7ba
