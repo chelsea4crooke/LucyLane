@@ -3,6 +3,7 @@
     background-size:cover;
     padding-top: 10px;
     padding-bottom: 50px;
+    height: 100vh;
 }
 .container{
     background-color: rgb(75, 74, 74, 0.5) !important;
