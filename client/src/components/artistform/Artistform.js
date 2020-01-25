@@ -67,19 +67,19 @@ class Artist extends Component {
                 <div className="container">
                     <Form onSubmit={this.onSubmit}>
                         <FormGroup>
-                            <Label for="name" className="name">Artist Name></Label>
+                            <Label for="name" className="name">Artist Name</Label>
                             <Input type="text" name="name" id="artistname" placeholder="Artist Name" onChange={this.onChange}/>
 
-                            <Label for="email">Email></Label>
+                            <Label for="email">Email</Label>
                             <Input type="text" name="email" id="email" placeholder="yourname@you.com" onChange={this.onChange}/>
 
-                            <Label for="phone"> Phone></Label>
+                            <Label for="phone"> Phone</Label>
                             <Input type="text" name="phone" id="phone" placeholder="ArtistPhone" onChange={this.onChange}/>
  
-                            <Label for="location"> Home Location></Label>
+                            <Label for="location"> Home Location</Label>
                             <Input type="text" name="location" id="location" placeholder="Home Location" onChange={this.onChange}/>
 
-                            <Label for="availability"> Availability></Label>
+                            <Label for="availability"> Availability</Label>
                             <Input type="text" name="availability" id="availability" placeholder="Availability" onChange={this.onChange}/>
                             
                             <Label for="genre">Genre>
