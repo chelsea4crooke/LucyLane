@@ -1,9 +1,5 @@
 import React from 'react';
 import { PropTypes } from 'prop-types';
-<<<<<<< HEAD
-
-=======
->>>>>>> f405f20bdbd4a8e17404721d35ce48c7c57c8cd0
 import "./shows.css";
 import { Jumbotron, Container, Row, Col } from 'reactstrap';
 import { UncontrolledCollapse, Button, CardBody, Card } from 'reactstrap';
