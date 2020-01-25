@@ -1,7 +1,6 @@
-body{
-    background: url(../../img/Zack4.jpg);
-    background-size:cover;
-  
+.formBody{
+    background: url(../../img/Colin12.jpg);
+    background-size:cover;  
 }
 .jumbotron{
     background-color: rgb(75, 74, 74, 0.5);
