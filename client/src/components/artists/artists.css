@@ -6,7 +6,15 @@
 }
 
 .shopping-list{
-    opacity: 0.6;
+    background-color: rgb(75, 74, 74, 0.5) !important;    
     text-align: center;
     margin: 70px 75px 70px 75px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.artistGenre{
+    color: #F39303;
+}
+.artistHome{
+    color:#EAE9E9;
 }

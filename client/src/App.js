@@ -14,7 +14,8 @@ import About from "../src/components/about/About";
 import Directions from "../src/components/directions/Directions";
 import Hidden from "./components/hidden/Hidden";
 import Shows from "../src/components/shows/Shows";
-import Form from "../src/components/form/Form"
+import Form from "../src/components/form/Form";
+import ArtistForm from "../src/components/artistform/Artistform";
 import "./app.css";
 import Footer from './components/Footer/footer';
 
@@ -33,6 +34,8 @@ class App extends Component {
                                 <Route exact path="/directions" component={Directions}/>
                                 <Route exact path="/hidden/letmein" component={Hidden} />
                                 <Route exact path="/form" component={Form}/>
+                                <Route exact path="/artistform" component={ArtistForm}/>
+ 
                                 <Route exact path="/artists" component={ShoppingList}/>
                             </Switch>
                         </div>

@@ -175,6 +175,7 @@ class Shows extends React.Component {
         </Row>
        {/* END SHOW ENTRY */}
       </div>
+      <br></br>
       </main>
   
 

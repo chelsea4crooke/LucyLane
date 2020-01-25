@@ -5,6 +5,7 @@ const path = require('path');
 
 const items = require('./routes/api/items');
 const contacts = require('./routes/api/forms');
+const artists = require('./routes/api/artistsforms');
 const app = express();
 
 app.use(bodyParser.json());
