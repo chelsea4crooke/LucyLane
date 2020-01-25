@@ -13,9 +13,10 @@ body{
     color: #F39303;
     text-align: center;
     position: sticky;
-    padding-top: 5px;
+    position: -webkit-sticky;
     left: 0;
     bottom: 0;
+    padding-top: 5px;
   }
   .jumbotron{
       padding-top: 20px;

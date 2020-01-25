@@ -14,9 +14,10 @@ class Landing extends Component {
            <hr></hr>
           <Link className="mainBtn btn-lg btn-primary"
             to="/about">Learn more</Link>
-              <br></br>
+              <br/>
         </div>
-        <br></br>
+        <br/>
+        
       </main>
     );
   }

@@ -34,7 +34,7 @@ class Hidden extends React.Component {
 
                 <p>7310 Jahnke Rd Chesterfield, Va 23225</p>
             </div>
-             <img className="drivewayPic" src={require('../../img/driveway.jpg')} />
+             <img className="drivewayPic" src={require('../../img/driveway.jpg')} alt="Lucy Lane driveway" />
             <br/>
             <Iframe />
        </div>

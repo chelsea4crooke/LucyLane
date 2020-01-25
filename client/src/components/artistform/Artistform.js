@@ -15,7 +15,7 @@ import { addArtist } from '../../actions/artistActions';
 
 
 
-class Artist extends Component {
+export class Artist extends Component {
     state={
         name:'',
         email:'',

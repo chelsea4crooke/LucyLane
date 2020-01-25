@@ -39,8 +39,8 @@ class App extends Component {
                                 <Route exact path="/artists" component={ShoppingList}/>
                             </Switch>
                         </div>
-                    <Footer />
-                </div>
+                   <Footer/>
+                </div> 
                 </Router>
             </Provider>
         );
