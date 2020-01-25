@@ -1,6 +1,7 @@
 .showsBody{
     background: url(../../img/Crust2.jpg);
     background-repeat: repeat-y;
+    background-position: center;
     background-size: contain;
     text-align: center;
     padding-top: 10px;
