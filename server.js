@@ -25,6 +25,8 @@ app.use('/api/items', items);
 
 app.use('/api/forms', contacts);
 
+app.use('/api/artistsforms', artists)
+
 //serve static assets if in production
 
 if (process.env.NODE_ENV === 'production') {
