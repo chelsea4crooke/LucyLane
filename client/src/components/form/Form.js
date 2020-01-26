@@ -10,7 +10,7 @@ import {
 import {connect} from 'react-redux';
 import { addContact } from '../../actions/contactActions';
 import "./contact.css";
-import { Artist } from '../artistform/Artistform'
+
 
 
 class Contact extends Component {
@@ -39,7 +39,7 @@ class Contact extends Component {
         console.log(newContact)
         //ADDITEM via addItem action
         this.props.addContact(newContact);
-        
+        e.target.reset();
     };
 
     render() {
@@ -74,15 +74,16 @@ class Contact extends Component {
                         </Label>
                     </FormGroup>
                 </Form>
-                <Artist/>
+
                 </div>
               <br/>         
             </main>
         );
     }
 }
-
+console.log("Form.js --:");
 const mapStateToProps = state => ({
+
     contact: state.contact
 });
 // redux use connect and component name in second paren
