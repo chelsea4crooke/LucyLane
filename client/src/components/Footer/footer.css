@@ -1,12 +1,12 @@
 .photo{
     padding-left: 20px;
-    float: left;
+    /* float: left; */
     color: #F39303;
     font-family: 'Calistoga', cursive;
+    margin-right: 5px;
 }
 .footer{
     position: relative;
-    /* width: 100%;  */
-    clear: both;
-    padding-bottom: 5px;
+    height: 4vh;
+    padding-top: 0px;
 }
