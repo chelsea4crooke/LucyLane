@@ -25,7 +25,7 @@ app.use('/api/items', items);
 
 app.use('/api/forms', contacts);
 
-app.use('/api/artistsforms', artists)
+app.use('/api/artistsforms', artists);
 
 //serve static assets if in production
 

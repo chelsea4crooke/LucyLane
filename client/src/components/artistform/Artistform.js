@@ -55,7 +55,7 @@ export class Artist extends Component {
         
         //ADDITEM via addItem action
         this.props.addArtist(newArtist);
-        
+        e.target.reset();
     };
 
     render() {
@@ -71,13 +71,13 @@ export class Artist extends Component {
                             <Label for="email">Email</Label>
                             <Input type="text" name="email" id="email" placeholder="yourname@you.com" onChange={this.onChange}/>
 
-                            <Label for="phone"> Phone</Label>
+                            <Label for="phone">Phone</Label>
                             <Input type="text" name="phone" id="phone" placeholder="ArtistPhone" onChange={this.onChange}/>
  
-                            <Label for="location"> Home Location</Label>
+                            <Label for="location">Home Location</Label>
                             <Input type="text" name="location" id="location" placeholder="Home Location" onChange={this.onChange}/>
 
-                            <Label for="availability"> Availability</Label>
+                            <Label for="availability">Availability</Label>
                             <Input type="text" name="availability" id="availability" placeholder="Availability" onChange={this.onChange}/>
                             
                             <Label for="genre">Genre</Label>
