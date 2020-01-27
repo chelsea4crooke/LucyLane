@@ -10,6 +10,7 @@ import {
 import {connect} from 'react-redux';
 import { addContact } from '../../actions/contactActions';
 import "./contact.css";
+import Jumbotron from '../Jumbotron';
 
 
 
@@ -46,7 +47,10 @@ class Contact extends Component {
   
         return(
         <main className="formBody">
-                  <p className="lead">Artist contact info please fill out <a className="formLink" href="artistform">this form</a></p>
+            <Jumbotron>
+                <p className="lead">If you have any questions or would just like to say 'hi', please fill out the form below.</p>
+                  <p className="lead">If you are a band or artist interested in performing at Lucy Lane, fill out <a className="formLink" href="artistform">this form</a>!</p>
+            </Jumbotron>
 
         <br/>
             <div className="container">
@@ -72,7 +76,7 @@ class Contact extends Component {
                             color="dark"
                             style={{marginBottom:'2rem'}}
                             block>
-                                Add Contact
+                                Submit
                             </Button>
                         </Label>
                     </FormGroup>

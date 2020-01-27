@@ -3,6 +3,7 @@
     background-size:cover;  
 }
 .jumbotron{
+    padding-bottom: 50px;
     background-color: rgb(75, 74, 74, 0.5);
 }
 .big{
@@ -16,12 +17,22 @@
 .lead{
     font-size: 40px;
     color: antiquewhite;
+    font-family: 'Calistoga', cursive !important;
+}
+.container{
+    margin-top: 50px !important;
 }
 .contact{
     color: #F39303;
 }
 .name, .email, .topic, .exText{
     color: #F39303;
-    font-family: 'Monoton', cursive;
+    font-family: 'Calistoga', cursive;
     font-size: 24px;
+    text-align: left;
+
+}
+input{
+    color: whitesmoke !important;
+    font-kerning: 3px !important;
 }

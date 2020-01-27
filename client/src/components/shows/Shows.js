@@ -17,7 +17,7 @@ class Shows extends React.Component {
         {/* BEGIN SHOW ENTRy */}
         <Row>
           <Col >
-          <h1 className='date'>FEB. 8th, 2020<br/><h3 className="time">8:30pm</h3></h1>
+          <h1 className='date'>FEB 8th 2020<br/><h3 className="time">8:30pm</h3></h1>
           </Col>
           <Col>
           <h2 className='showTitle'>Shadow Year (NY), <br/>Dumb Waiter,<br/> Gnawing,<br/> Cream Dream<br/></h2>
@@ -48,7 +48,7 @@ class Shows extends React.Component {
        {/* BEGIN SHOW ENTRy */}
        <Row>
           <Col >
-          <h1 className='date'>FEB. 22nd, 2020<br/><h3 className="time">8:30pm</h3></h1>
+          <h1 className='date'>FEB 22nd 2020<br/><h3 className="time">8:30pm</h3></h1>
           </Col>
           <hr/>
           <Col>
@@ -80,7 +80,7 @@ class Shows extends React.Component {
        {/* BEGIN SHOW ENTRy */}
        <Row>
           <Col >
-          <h1 className='date'>MAR. 7th, 2020<br/><h3 className="time">8:30pm</h3></h1>
+          <h1 className='date'>MAR 7th 2020<br/><h3 className="time">8:30pm</h3></h1>
           </Col>
           <hr/>
           <Col>
@@ -113,7 +113,7 @@ class Shows extends React.Component {
        {/* BEGIN SHOW ENTRy */}
        <Row>
           <Col >
-          <h1 className='date'>MAR. 20th, 2020<br/><h3 className="time">8:30pm</h3></h1>
+          <h1 className='date'>MAR 20th 2020<br/><h3 className="time">8:30pm</h3></h1>
           </Col>
           <hr/>
           <Col>
@@ -145,7 +145,7 @@ class Shows extends React.Component {
        {/* BEGIN SHOW ENTRy */}
        <Row>
           <Col >
-          <h1 className='date'>APR. 3rd, 2020<br/><h3 className="time">8:30pm</h3></h1>
+          <h1 className='date'>APR 3rd 2020<br/><h3 className="time">8:30pm</h3></h1>
           </Col>
           <hr/>
           <Col>
