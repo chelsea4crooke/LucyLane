@@ -43,8 +43,11 @@ class Contact extends Component {
     };
 
     render() {
+  
         return(
         <main className="formBody">
+                  <p className="lead">Artist contact info please fill out <a className="formLink" href="artistform">this form</a></p>
+
         <br/>
             <div className="container">
                 <Form onSubmit={this.onSubmit}>
