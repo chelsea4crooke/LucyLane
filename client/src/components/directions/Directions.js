@@ -1,7 +1,7 @@
 import React from 'react';
 import {Redirect} from 'react-router-dom';
 import { PropTypes } from 'prop-types';
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./addressProtect.css"
 // import { Link } from 'react-router-dom';
 class Directions extends React.Component {
