@@ -29,30 +29,36 @@ export class NavBar extends Component{
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="mr-auto" navbar>
                             <NavItem>
-                                <NavLink className="link1" to="/about">
+                                <NavLink activeStyle={{fontWeight: "bold", color: "red"}}className="link1" to="/about">
                                     About
                                 </NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink className="link1" to="/shows">
+                                <NavLink activeStyle={{fontWeight: "bold", color: "red"}}className="link1" to="/shows">
                                     Upcoming Shows
                                 </NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink className="link1" to="/directions">
+                                <NavLink activeStyle={{fontWeight: "bold", color: "red"}}className="link1"to="/artists">
+                                    Our Artists
+                                </NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink activeStyle={{fontWeight: "bold", color: "red"}}className="link1" to="/press">
+                                    Press
+                                </NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink activeStyle={{fontWeight: "bold", color: "red"}}className="link1" to="/directions">
                                     Directions
                                 </NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink className="link1" to="/form">
+                                <NavLink activeStyle={{fontWeight: "bold", color: "red"}}className="link1" to="/form">
                                     Contact Us
                                 </NavLink>
                             </NavItem>
-                            <NavItem>
-                                <NavLink className="link1"to="/artists">
-                                    Our Artists
-                                </NavLink>
-                            </NavItem>
+                            
                         </Nav>
                     </Collapse>
                 {/* </Container> */}
