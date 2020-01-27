@@ -1,5 +1,3 @@
-
-
 // import "./style.css";
 import React, { Component } from "react";
 import {
@@ -8,8 +6,8 @@ import {
     FormGroup,
     Label,
     Input,
-    
-} from 'reactstrap';
+} 
+from 'reactstrap';
 import {connect} from 'react-redux';
 import { addArtist } from '../../actions/artistActions';
 import "../form/contact.css";
@@ -53,8 +51,8 @@ export class Artist extends Component {
             fblink: this.state.fblink,
             epklink: this.state.epklink,
             coolstuff: this.state.coolstuff,           
-        }
-        console.log(newArtist)
+        };
+        
         //ADDITEM via addItem action
         this.props.addArtist(newArtist);
         e.target.reset();
