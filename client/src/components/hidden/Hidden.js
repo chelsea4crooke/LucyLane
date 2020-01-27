@@ -1,7 +1,6 @@
 import React from 'react';
 import { PropTypes } from 'prop-types';
 import Jumbotron from "../Jumbotron";
-import { Link } from "react-router-dom";
 import Iframe from "../Iframe";
 import "../Jumbotron";
 import "./hiddenPg.css";
@@ -13,8 +12,6 @@ class Hidden extends React.Component {
             <Jumbotron>
                 <h1 className="display-4">Lucy Lane Directions</h1>
                 <p className="lead">Please read carefully.</p>
-                <Link className="mainBtn btn-lg btn-primary"
-                to="/about">Learn more</Link>
               <br></br>
             </Jumbotron>
             <div className="container">

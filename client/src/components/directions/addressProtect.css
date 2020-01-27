@@ -20,18 +20,15 @@ h1{
     font-family: 'Monoton', cursive;
     font-size: 115px;
 }
-.mainButton{
-    background-color:  #F39303;
-    border: 0pt;
-}
 .lead{
     font-size: 30px !important;
     color: antiquewhite;
 }
 .passwordBtn{
-    background-color: crimson !important;
+    background-color: #ccccff !important;
     border: cornsilk !important;
     font-size: 20px;
+    padding-bottom: 6px;
 }
 .formlink:link{
     color: crimson !important;

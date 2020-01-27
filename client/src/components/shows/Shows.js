@@ -10,18 +10,17 @@ class Shows extends React.Component {
     return (
       <main className="showsBody">
        <Jumbotron>
-         <h3>Upcoming Shows at Lucy Lane.....Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+         <h3>Upcoming Shows at Lucy Lane.....Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </h3>
         </Jumbotron> 
         <br/>
-      <div className="container">
+      <div className="containerShows">
         {/* BEGIN SHOW ENTRy */}
         <Row>
           <Col >
           <h1 className='date'>FEB. 8th, 2020<br/><h3 className="time">8:30pm</h3></h1>
           </Col>
-          <hr/>
           <Col>
-          <h2 classname='showTitle'>Shadow Year (NY), <br/>Dumb Waiter,<b/> Gnawing,<br/> Cream Dream<br/></h2>
+          <h2 className='showTitle'>Shadow Year (NY), <br/>Dumb Waiter,<br/> Gnawing,<br/> Cream Dream<br/></h2>
           <div>
           <br/>
             <Button color="primary" id="toggler" className="detailsBtn" style={{ marginBottom: '1rem' }}>
@@ -53,7 +52,7 @@ class Shows extends React.Component {
           </Col>
           <hr/>
           <Col>
-          <h2 classname='showTitle'>MammaBear(GA), The Trillions, Nightcreature, Mad Abbey<br/></h2>
+          <h2 className='showTitle'>MammaBear(GA), <br/>The Trillions, <br/>Nightcreature, <br/>Mad Abbey<br/></h2>
           <div>
           <br/>
             <Button color="primary" id="toggler" className="detailsBtn" style={{ marginBottom: '1rem' }}>
@@ -85,7 +84,7 @@ class Shows extends React.Component {
           </Col>
           <hr/>
           <Col>
-          <h2 classname='showTitle'>Sleepwalkers, Landon Elliot, Deli Kings<br/></h2>
+          <h2 className='showTitle'>Sleepwalkers, <br/>Landon Elliot, <br/>Deli Kings<br/></h2>
           <div>
           <br/>
             <Button color="primary" id="toggler" className="detailsBtn" style={{ marginBottom: '1rem' }}>
@@ -98,7 +97,7 @@ class Shows extends React.Component {
                   
                   <p>This is an all local bill!<br/>
                   <a href="https://www.sleepwalkersmusic.com/">SLEEPWALKERS - Angelic melodies, deep bass rifts, catchy booty shaking jamz
-</a><br/><br/>
+                  </a><br/><br/>
                   
                   <a href='https://www.landonelliott.com/'>Landon Elliot - Americana; Alt-Rock</a><br/>
                   <a href='https://omgdelikings.bandcamp.com/'>Deli Kings - Glam Rock N' Roll</a><br/>
@@ -118,7 +117,7 @@ class Shows extends React.Component {
           </Col>
           <hr/>
           <Col>
-          <h2 classname='showTitle'>When Particles Collide (ME), Railgun, Beeline, SoulBurst<br/></h2>
+          <h2 className='showTitle'>When Particles Collide (ME), <br/>Railgun, <br/>Beeline, <br/>SoulBurst<br/></h2>
           <div>
           <br/>
             <Button color="primary" id="toggler" className="detailsBtn" style={{ marginBottom: '1rem' }}>
@@ -150,7 +149,7 @@ class Shows extends React.Component {
           </Col>
           <hr/>
           <Col>
-          <h2 classname='showTitle'>Reflex Machine, The Russells, Eliza Battle, Grem Smiley<br/></h2>
+          <h2 className='showTitle'>Reflex Machine, <br/>The Russells, <br/>Eliza Battle, <br/>Grem Smiley<br/></h2>
           <div>
           <br/>
             <Button color="primary" id="toggler" className="detailsBtn" style={{ marginBottom: '1rem' }}>
