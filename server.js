@@ -24,13 +24,9 @@ mongoose
 app.use('/api/items', items);
 
 app.use('/api/forms', contacts);
-<<<<<<< HEAD
-app.use('/api/artistforms' , artists);
-=======
 
-app.use('/api/artistsforms', artists)
+app.use('/api/artistsforms', artists);
 
->>>>>>> 6613f203bd76d93d455540243e278bafd6ff9c83
 //serve static assets if in production
 
 if (process.env.NODE_ENV === 'production') {

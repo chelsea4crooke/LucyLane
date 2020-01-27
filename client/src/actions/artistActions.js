@@ -4,7 +4,7 @@ import { ADD_ARTIST } from './types';
 console.log("artistActions.js beginning");
 export const addArtist = (artist) => dispatch => {
     axios
-    .post('/api/artistforms', artist)
+    .post('/api/artistsforms', artist)
     .then(res => 
         dispatch({
             type: ADD_ARTIST,
