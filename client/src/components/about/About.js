@@ -30,55 +30,58 @@ class About extends React.Component {
           <div className="aboutText">
             <p>Lucy Lane is an artistic outlet for anyone wanting to expand and share their respective craft, with a direct focus on music. All artists are welcome to come indulge, and make our habitat a place of warm fuzzy feelings and beautiful expression. </p>
           </div>
-          <ul className="list-group list-group-flush">
-          <li className="list-group-item rules"><h3>We only have a few simple rules...</h3></li>
-            <li className="list-group-item rules">Have fun</li>
-            <li className="list-group-item rules">Spread love</li>
-            <li className="list-group-item rules">Don't die</li>
-            <li className="list-group-item rules">Don't drive drunk.</li>
-            <li className="list-group-item rules">Don't let your friends drive drunk.</li>
-          </ul>
+          <br/>
+          </div>
+          <ul className="list-group list-group-flush rules">
+          <li className="list-group"><h3 className="rulesH3">We only have a few simple rules...</h3></li>
+            <li className="list-group">Have fun</li>
+            <li className="list-group">Spread love</li>
+            <li className="list-group">Don't die</li>
+            <li className="list-group">Don't drive drunk.</li>
+            <li className="list-group">Don't let your friends drive drunk.</li>
+            <br/>
+            <h3 className="harassment">**HARASSMENT OF ANY KIND WILL NOT BE TOLERATED!**</h3>
+            </ul>
           <br></br>
-          <h3 className="harassment">**HARASSMENT OF ANY KIND WILL NOT BE TOLERATED!**</h3>
-          <br></br>
+          <div className="container">
           <h2 className="facts">FAQ's:</h2>
           <br></br>
           <div className="list-group">
-            <li className="list-group-item rules">So what is a DIY venue exactly?</li>
+            <li className="list-group-item FAQ">So what is a DIY venue exactly?</li>
               <p className="answer">A DIY venue is a place for all artists to come and share their craft in a non-traditional way. We do not make profit from any donations. We focus on making our home a place where everyone feels welcome and safe, a sanctuary to hang out with old and new friends alike while experiencing live music.</p>
-            <li className="list-group-item rules">
+            <li className="list-group-item FAQ">
               How do you go about booking shows?
             </li>
               <p className="answer" >The process is usually pretty straight forward. A band on tour will give us dates they’d like to play and if were available we find local acts that fit the sound and we’ve got ourselves a show. We do not typically book weeknights and to maintain balance we do not book every weekend every month.</p>
-            <li className="list-group-item rules">
+            <li className="list-group-item FAQ">
                   What’s the address?
             </li>
                 <p className="answer">We do not give out the address publicly. It is our home after all. If you’d like to come to a show, fill out this form and we’ll send you a password. You’ll be able to access the address and all directions 8:00am the day of the show. You will not be able to access it after the show is over and the password changes every show.</p>
-            <li className="list-group-item rules">
+            <li className="list-group-item FAQ">
                     Do you sell booze?
             </li>
                 <p className="answer">NOPE! Every Lucy Lane show is BYOB. We ask to please be responsible when drinking and getting home. You are welcome to rideshare to and from the show. We will not let you drive intoxicated. That’s just not cool.</p>
-            <li className="list-group-item rules">
+            <li className="list-group-item FAQ">
                   Do you sell food?
             </li>
                 <p className="answer">Wouldn’t that be awesome? We do not sell food during shows. If you’d like to bring us snacks, that’d be cool.
                 </p>
-            <li className="list-group-item rules">
+            <li className="list-group-item FAQ">
                   What is the cost of the event and what does it go to?
             </li>
                 <p className="answer">For each event we ask that you give a $5-$7 donation which goes to the band on tour for gas and road sandwiches.
                 </p>
-            <li className="list-group-item rules">
+            <li className="list-group-item FAQ">
                   Do you offer any outlets for non musical artists? 
             </li>
                 <p className="answer">Yes! We’ve hosted jewelry makers, painters, screenprinters, and more to sell their goods! Shoot us an email and we’ll get you set up!
                 </p>
-            <li className="list-group-item rules">
+            <li className="list-group-item FAQ">
                   How do I become a staff member of LL?
             </li>
                 <p className="answer">Pay rent! We have plenty of opportunities if you’d like to volunteer! You guessed it- send us an email.
                 </p>
-            <li className="list-group-item rules">
+            <li className="list-group-item FAQ">
                   How else can I contribute to making LL better?
             </li>
                 <p className="answer">Bring your friends, be nice to people, pick up your trash.
