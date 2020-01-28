@@ -44,9 +44,12 @@ h3{
     font-size: 20px;
     color:rgb(236,81,161);
 }
-.bands, p, a{    
+.bands, p{    
     font-family: 'Calistoga', cursive;
-
+}
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #EAE9E9 ;
 }
 .time{
     font-family: Arial, Helvetica, sans-serif;
