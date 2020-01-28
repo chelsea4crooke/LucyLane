@@ -36,7 +36,7 @@ class About extends React.Component {
           <li className="list-group"><h3 className="rulesH3">We only have a few simple rules...</h3></li>
             <li className="list-group">Have fun</li>
             <li className="list-group">Spread love</li>
-            <li className="list-group">Don't die</li>
+            {/* <li className="list-group">Don't die</li> */}
             <li className="list-group">Don't drive drunk.</li>
             <li className="list-group">Don't let your friends drive drunk.</li>
             <br/>
