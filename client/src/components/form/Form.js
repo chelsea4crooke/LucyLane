@@ -68,7 +68,7 @@ class Contact extends Component {
                           </FormGroup>
                             
                             <Button
-                            color="rgb(144,206,199)"
+                            color="dark"
                             style={{marginBottom:'2rem'}}
                             block>
                                 Submit
