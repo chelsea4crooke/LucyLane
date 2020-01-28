@@ -14,7 +14,7 @@ class About extends React.Component {
           <h1>About Lucy Lane</h1>
             <message className="jMess">This is a little bit of our history and some frequently asked questions about the venue.</message>
         </Jumbotron>
-        <br></br>
+        {/* <br></br> */}
       <div className="container">
         <h1 className="aboutLead">Lucy Lane's humble beginnings...</h1>
         <br></br>
