@@ -14,6 +14,7 @@ class Hidden extends React.Component {
                 <p className="lead">Please read carefully.</p>
               <br></br>
             </Jumbotron>
+            <br/>
             <div className="containerAdd">
                 <p> The Lucy Lane house is located at the end of a woodsy, quarter mile driveway that runs alongside interstate 150 - Chippenham Pkwy- just a 12 minute drive outside of Richmond City.</p>
 

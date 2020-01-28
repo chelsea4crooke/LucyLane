@@ -24,7 +24,9 @@
     font-family: 'Calistoga', cursive;
     font-size: 24px;
     text-align: left;
-
+}
+.formLink{
+    font-family: 'Calistoga', cursive !important;
 }
 input{
     color: antiquewhite !important;

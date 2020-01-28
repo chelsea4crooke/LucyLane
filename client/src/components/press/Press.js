@@ -17,6 +17,7 @@ class Press extends React.Component {
         <Jumbotron>
           <h1>Lucy Lane in the news...</h1>
         </Jumbotron>
+        <br/>
         <div>
     <Row>
         <Col>
