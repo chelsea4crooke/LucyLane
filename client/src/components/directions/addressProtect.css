@@ -3,6 +3,8 @@
     background-size:cover;
     height: 80vh !important;
     padding-top: 20px;
+    margin-top: 80px !important;
+
 }
 .containerDirect{
     background-color: rgb(75, 74, 74, 0.5) !important;
@@ -11,7 +13,8 @@
     text-align: left;
     margin-left: 55px;
     margin-right: 55px;
-    margin-top: 60px !important;
+    padding-left: 20px;
+    /* margin-top: 60px !important; */
 }
 .leadDirect{
     font-size: 26px !important;
