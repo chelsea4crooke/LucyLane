@@ -1,7 +1,7 @@
 import React from 'react';
 import { PropTypes } from 'prop-types';
 import "./shows.css";
-import { Jumbotron, Row, Col } from 'reactstrap';
+import { Row, Col } from 'reactstrap';
 import { UncontrolledCollapse, Button, CardBody, Card } from 'reactstrap';
 
 
@@ -9,11 +9,7 @@ class Shows extends React.Component {
   render() {
     return (
       <main className="showsBody">
-      <br/>
-       <Jumbotron>
-         <h3>Upcoming Shows at Lucy Lane.....Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
-        </Jumbotron> 
-        <br/>
+      
       <div className="containerShows">
         {/* BEGIN SHOW ENTRy */}
         <Row>
@@ -31,7 +27,7 @@ class Shows extends React.Component {
             <UncontrolledCollapse toggler="#toggler">
               <Card className='detailsCard'>
                 <CardBody>
-                  <p className='bands'>It's super cold outside, and that is lame. However, we have a warm basement with killer tunes to toast your buns, and that isn't so lame. We hearing dancing is a great way to keep those body temps up to ideal conditions. </p><br/>
+                  
                   <p>ON TOUR:<br/>
                   <a href="https://shadowyear.bandcamp.com/album/hush-hush-panic">Shadow Year (Brooklyn, NY) - ROCK N ROLL</a><br/><br/>
                   <p>LOCAL SUPPORT:</p>

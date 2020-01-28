@@ -11,6 +11,7 @@
     text-align: center;
     margin-top: 30px;
     color: #EAE9E9 ;
+    padding-top: 10px !important;
     border: 2px solid rgb(236,81,161) ;
     margin-left: 20px !important;
 }
@@ -62,7 +63,7 @@ a{
     height: 2070px;
     padding-left: 60px;
     padding-right: 60px;
-    margin-left: 160px !important;
+    margin-left: 260px !important;
     margin-right: 40px !important;
 }
 .detailsBtn{
