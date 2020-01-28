@@ -6,17 +6,18 @@ import {
     Card, CardImg, CardText, CardBody,
     CardTitle, CardSubtitle, Button, Row, Col
   } from 'reactstrap';
-
+import "./press.css";
 
 
 class Press extends React.Component {
   render() {
     return (
-      <main className="aboutBody"> 
+      <main className="pressBody"> 
       <br></br>
         <Jumbotron>
           <h1>Lucy Lane in the news...</h1>
         </Jumbotron>
+        <br/>
         <div>
     <Row>
         <Col>

@@ -9,8 +9,9 @@ class Shows extends React.Component {
   render() {
     return (
       <main className="showsBody">
+      <br/>
        <Jumbotron>
-         <h3>Upcoming Shows at Lucy Lane.....Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </h3>
+         <h3>Upcoming Shows at Lucy Lane.....Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
         </Jumbotron> 
         <br/>
       <div className="containerShows">

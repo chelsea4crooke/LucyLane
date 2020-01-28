@@ -1,18 +1,12 @@
 .formBody{
     background: url(../../img/Colin12.jpg);
     background-size:cover;  
+    padding-top: 20px;
 }
 .jumbotron{
     padding-bottom: 50px;
     background-color: rgb(75, 74, 74, 0.5);
-}
-.big{
-    font-family: 'Monoton', cursive;
-    font-size: 115px;
-}
-.mainButton{
-    background-color:  #F39303;
-    border: 0pt;
+    margin: 0px 20px 0px 20px !important;
 }
 .lead{
     font-size: 40px;
@@ -30,9 +24,16 @@
     font-family: 'Calistoga', cursive;
     font-size: 24px;
     text-align: left;
-
+}
+.formLink{
+    font-family: 'Calistoga', cursive !important;
 }
 input{
-    color: whitesmoke !important;
+    color: antiquewhite !important;
     font-kerning: 3px !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+::placeholder{
+    color: antiquewhite !important;    
+    font-family: Arial, Helvetica, sans-serif !important;
 }

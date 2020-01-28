@@ -1,0 +1,31 @@
+.artBody{
+    background: url(../../img/Colin12.jpg);
+    background-size:cover;  
+}
+.lead{
+    font-size: 40px;
+    color: antiquewhite;
+    font-family: 'Calistoga', cursive !important;
+}
+.container{
+    margin-top: 20px !important;
+}
+.contact{
+    color: #F39303;
+}
+.name, .email, .topic, .exText, .phone, .location, .avail, .genre, .fblink, .epk, .cool{
+    color: #F39303;
+    font-family: 'Calistoga', cursive;
+    font-size: 24px;
+    text-align: left;
+
+}
+input{
+    color: antiquewhite !important;
+    font-kerning: 3px !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+::placeholder{
+    color: antiquewhite !important;    
+    font-family: Arial, Helvetica, sans-serif !important;
+}

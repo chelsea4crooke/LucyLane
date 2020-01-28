@@ -14,7 +14,7 @@ class About extends React.Component {
           <h1>About Lucy Lane</h1>
             <message className="jMess">This is a little bit of our history and some frequently asked questions about the venue.</message>
         </Jumbotron>
-        <br></br>
+        {/* <br></br> */}
       <div className="container">
         <h1 className="aboutLead">Lucy Lane's humble beginnings...</h1>
         <br></br>
@@ -36,13 +36,13 @@ class About extends React.Component {
           <li className="list-group"><h3 className="rulesH3">We only have a few simple rules...</h3></li>
             <li className="list-group">Have fun</li>
             <li className="list-group">Spread love</li>
-            <li className="list-group">Don't die</li>
+            {/* <li className="list-group">Don't die</li> */}
             <li className="list-group">Don't drive drunk.</li>
             <li className="list-group">Don't let your friends drive drunk.</li>
             <br/>
             <h3 className="harassment">**HARASSMENT OF ANY KIND WILL NOT BE TOLERATED!**</h3>
             </ul>
-          <br></br>
+          {/* <br></br> */}
           <div className="container">
           <h2 className="facts">FAQ's:</h2>
           <br></br>

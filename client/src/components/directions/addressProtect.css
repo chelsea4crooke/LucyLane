@@ -1,37 +1,33 @@
 .directBody{
     background: url(../../img/Blush6.jpg);
     background-size:cover;
-    padding-top: 10px;
-    padding-bottom: 50px;
-    height: 100vh;
+    height: 80vh !important;
+    padding-top: 120px !important;
+    /* margin-top: 80px !important; */
+
 }
-.container{
+.containerDirect{
     background-color: rgb(75, 74, 74, 0.5) !important;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 60px;
-    padding-right: 60px;
-    text-align: center;
-    margin-top: 50px;
+    padding-top: 20px !important;
+    padding-bottom: 40px;
+    text-align: left;
+    margin-left: 55px;
+    margin-right: 55px;
+    padding-left: 20px;
+    /* margin-top: 60px !important; */
 }
-h1{
-    font-size: 55px !important;
-}
-.big{
-    font-family: 'Monoton', cursive;
-    font-size: 115px;
-}
-.lead{
-    font-size: 30px !important;
+.leadDirect{
+    font-size: 26px !important;
+    font-family: Arial, Helvetica, sans-serif !important;
     color: antiquewhite;
 }
 .passwordBtn{
     background-color: #ccccff !important;
     border: cornsilk !important;
-    font-size: 20px;
+    font-size: 18px;
     padding-bottom: 6px;
+    margin-left: 360px !important;
 }
-.formlink:link{
-    color: crimson !important;
-    border: cornsilk !important;
+.formDirect{
+    color: rgb(236,81,161) !important;
 }

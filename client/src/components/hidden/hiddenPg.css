@@ -3,27 +3,17 @@
     background-size: contain;
     background-repeat: repeat;
     padding-top: 10px;
+    padding-bottom: 20px;
     padding-right: 30px;
     padding-left: 30px;
+    text-align: left !important;
 }
-.jumbotron{
+.containerAdd{
     background-color: rgb(75, 74, 74, 0.5) !important;
-}
-.big{
-    font-family: 'Monoton', cursive;
-    font-size: 115px;
-}
-.mainButton{
-    background-color:  #F39303;
-    border: 0pt;
-}
-.lead{
-    font-size: 40px;
-    color: antiquewhite;
-}
-.address{
     font-size: 24px;
     color: antiquewhite;
+    padding: 20px 30px 20px 30px;
+    margin: 0px 15px 0px 15px;
 }
 .drivewayPic{
     margin-bottom: 30px !important;

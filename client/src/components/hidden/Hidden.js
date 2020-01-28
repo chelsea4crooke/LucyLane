@@ -8,18 +8,18 @@ import "./hiddenPg.css";
 class Hidden extends React.Component {
     render(){
         return (
-            <main className="hiddenBody">
+        <main className="hiddenBody">
             <Jumbotron>
                 <h1 className="display-4">Lucy Lane Directions</h1>
                 <p className="lead">Please read carefully.</p>
               <br></br>
             </Jumbotron>
-            <div className="container">
-              <div className="address">
+            <br/>
+            <div className="containerAdd">
                 <p> The Lucy Lane house is located at the end of a woodsy, quarter mile driveway that runs alongside interstate 150 - Chippenham Pkwy- just a 12 minute drive outside of Richmond City.</p>
 
                 <p>As you arrive at the driveway you will see a column of signs including STOP, Do Not Enter No Outlet and a green "Lucy Lane" street sign. </p>
-                <p>**If you dont see these signs in the photograph down below you're in the wrong place. Do Not pass go, do not collect $200.**</p>
+                <p><strong>**If you dont see these signs in the photograph down below you're in the wrong place. Do Not pass go, do not collect $200.**</strong></p>
 
                 <p>Parking is available on the property however we ask that whenver possible you would please carpool or use a rideshare service. Parking is located along the right side of the driveway along the fence to the highway. If parking becomes full at any given show, there is free public parking in a deck at Chippenham Hospital (about a 5 minute walk but there are some spots without sidewalk) but please be courteous of hospital patrons.</p>
 
@@ -29,9 +29,8 @@ class Hidden extends React.Component {
 
                 <p>Please reference these pictures and maps to help you out! The address for the show is as follows: </p>
 
-                <p>7310 Jahnke Rd Chesterfield, Va 23225</p>
-            </div>
-             <img className="drivewayPic"  src={require('../../img/driveway.jpg')} alt="Lucy Lane driveway" />
+                <p><strong>7310 Jahnke Rd Chesterfield, Va 23225</strong></p>
+             <img className="drivewayPic" src={require('../../img/driveway.jpg')} alt="Lucy Lane driveway" />
             <br/>
             <Iframe />
        </div>
