@@ -42,7 +42,7 @@ class About extends React.Component {
             <br/>
             <h3 className="harassment">**HARASSMENT OF ANY KIND WILL NOT BE TOLERATED!**</h3>
             </ul>
-          <br></br>
+          {/* <br></br> */}
           <div className="container">
           <h2 className="facts">FAQ's:</h2>
           <br></br>
