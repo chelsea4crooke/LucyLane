@@ -57,7 +57,7 @@ class Contact extends Component {
                 <Form onSubmit={this.onSubmit}>
                     <FormGroup>
                             <Label for="name" className="name"> Name
-                            <Input type="text" name="name" className="contact" placeholder="Add contact" onChange={this.onChange}/>
+                            <Input type="text" name="name" className="contact" placeholder="" onChange={this.onChange}/>
 
                             <Label for="email" className="email">Email</Label>
                             <Input type="text" name="email" className="email" placeholder="yourname@you.com" onChange={this.onChange}/>
