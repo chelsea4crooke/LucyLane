@@ -3,7 +3,7 @@
     background-size:cover;
     padding-top: 10px;
     padding-bottom: 50px !important;
-    height: 100%vh;
+    height: 100%vh !important;
 }
 .container{
     background-color: rgb(75, 74, 74, 0.5) !important;
@@ -25,4 +25,7 @@
     font-size: 18px;
     padding-bottom: 6px;
     margin-left: 320px !important;
+}
+.formDirect{
+    color: rgb(236,81,161);
 }
