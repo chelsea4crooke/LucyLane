@@ -15,18 +15,6 @@
     padding: 20px 30px 20px 30px;
     margin: 0px 15px 0px 15px;
 }
-.big{
-    font-family: 'Monoton', cursive;
-    font-size: 115px;
-}
-.mainButton{
-    background-color:  #F39303;
-    border: 0pt;
-}
-.lead{
-    font-size: 40px;
-    color: antiquewhite;
-}
 .drivewayPic{
     margin-bottom: 30px !important;
     width: 900px;

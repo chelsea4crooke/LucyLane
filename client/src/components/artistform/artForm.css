@@ -3,18 +3,13 @@
     background-size:cover;  
     padding-top: 20px;
 }
-.jumbotron{
-    padding-bottom: 50px;
-    background-color: rgb(75, 74, 74, 0.5);
-    margin: 0px 20px 0px 20px !important;
-}
 .lead{
     font-size: 40px;
     color: antiquewhite;
     font-family: 'Calistoga', cursive !important;
 }
 .container{
-    margin-top: 50px !important;
+    margin-top: 20px !important;
 }
 .contact{
     color: #F39303;

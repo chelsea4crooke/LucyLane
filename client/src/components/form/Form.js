@@ -12,8 +12,6 @@ import { addContact } from '../../actions/contactActions';
 import "./contact.css";
 import Jumbotron from '../Jumbotron';
 
-
-
 class Contact extends Component {
     state={
         name:'',
@@ -48,11 +46,10 @@ class Contact extends Component {
         return(
         <main className="formBody">
             <Jumbotron>
-                <p className="lead">If you have any questions or would just like to say 'hi', please fill out the form below.</p>
+                <p className="lead">If you have any questions or would just like to say hi, please fill out the form below.</p>
+                <hr />
                   <p className="lead">If you are a band or artist interested in performing at Lucy Lane, fill out <a className="formLink" href="artistform">this form</a>!</p>
             </Jumbotron>
-
-        <br/>
             <div className="container">
                 <Form onSubmit={this.onSubmit}>
                     <FormGroup>
@@ -61,8 +58,6 @@ class Contact extends Component {
 
                             <Label for="email" className="email">Email</Label>
                             <Input type="text" name="email" className="email" placeholder="yourname@you.com" onChange={this.onChange}/>
-
-                            
 
                             <Label for="topic" className="topic">What are you contacting us about?</Label>
                             <Input type="text" name="topic" className="email" placeholder="Directions to shows, Press, etc." onChange={this.onChange}/>
@@ -73,7 +68,7 @@ class Contact extends Component {
                           </FormGroup>
                             
                             <Button
-                            color="dark"
+                            color="rgb(144,206,199)"
                             style={{marginBottom:'2rem'}}
                             block>
                                 Submit
