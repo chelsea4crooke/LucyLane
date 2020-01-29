@@ -14,8 +14,6 @@ class Directions extends React.Component {
   }
 
   handleClick(){
-    console.log('this is:', this);
-    // password();
     let input = prompt('Answer My Riddle!')
     if (this.state.password.includes(input)) {
       this.setState({redirect: true})

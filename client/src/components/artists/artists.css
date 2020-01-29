@@ -18,3 +18,7 @@
 .artistHome{
     color:#EAE9E9;
 }
+.artistName{
+    font-family: 'Calistoga', cursive !important;
+    color: rgb(236,81,161) !important;
+}
