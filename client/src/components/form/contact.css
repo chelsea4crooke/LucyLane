@@ -6,7 +6,7 @@
 .jumbotron{
     padding-bottom: 50px;
     background-color: rgb(75, 74, 74, 0.5);
-    margin: 0px 20px 0px 20px !important;
+    margin: 0px 40px 0px 40px !important;
 }
 .lead{
     font-size: 40px;
@@ -27,6 +27,7 @@
 }
 .formLink{
     font-family: 'Calistoga', cursive !important;
+    color:#F39303 ;
 }
 input{
     color: antiquewhite !important;

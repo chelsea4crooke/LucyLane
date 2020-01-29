@@ -3,6 +3,7 @@
     background-size:cover;
     height: 80vh !important;
     padding-top: 120px !important;
+
     /* margin-top: 80px !important; */
 
 }
@@ -11,9 +12,11 @@
     padding-top: 20px !important;
     padding-bottom: 40px;
     text-align: left;
-    margin-left: 55px;
-    margin-right: 55px;
-    padding-left: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding: 70px !important;
     /* margin-top: 60px !important; */
 }
 .leadDirect{
@@ -26,7 +29,7 @@
     border: cornsilk !important;
     font-size: 18px;
     padding-bottom: 6px;
-    margin-left: 360px !important;
+    margin-left: 480px !important;
 }
 .formDirect{
     color: rgb(236,81,161) !important;
